@@ -1,14 +1,31 @@
-# Catalogue-de-trajets
-Dans le Terminal, après avoir lancé le programme (make, ./sejours) suivez les indications du menu :
+# Route catalog
 
-Tapez 1 pour afficher le catalogue
+A catalog for searching the optimal route between two destinations.
 
-Tapez 2 pour ajouter un trajet simple
+## Run
 
-Tapez 3 pour ajouter un trajet composé
+## Usage
+In your terminal, run:
 
-Tapez 4 pour rechercher un trajet
+```cpp
+make
+```
+Then start the application with:
 
-Tapez 0 pour quitter le programme
+```cpp
 
-Nb.: Tapez ‘fin’ dans Ville de Départ lorsque vous voulez arrêter de rentrer des étapes pour un trajet composé.
+./sejours
+```
+Follow the menu instructions in the terminal:
+
+- Type 1 to display the catalog
+
+- Type 2 to add a single trip
+
+- Type 3 to add a compound trip
+
+- Type 4 to search for a trip
+
+- Type 0 to quit the program
+
+<i>Note: Type 'end' in Departure City when you want to stop entering stages for a compound trip.</i>
